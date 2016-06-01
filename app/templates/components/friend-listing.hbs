@@ -1,0 +1,5 @@
+{{#if isShowAdd}}
+  <button {{action "add" friend.id}}>Add</button>
+{{else}}
+  <button {{action "remove" friend.id}}>Remove</button>
+{{/if}}

@@ -1,0 +1,8 @@
+<td>
+	{{#if isImageShowing }}
+	  <p><img src={{userList.photo}} alt={{userList.name}} width="100px"></p>
+	  <button {{action "imageHide"}}>Hide image</button>
+	{{else}}
+	  <button {{action "imageShow"}}>Show image</button>
+	{{/if}}
+</td>
